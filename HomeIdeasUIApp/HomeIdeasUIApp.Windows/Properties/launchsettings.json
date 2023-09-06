@@ -1,0 +1,10 @@
+{
+  "profiles": {
+	"HomeIdeasUIApp.Windows (Package)": {
+	  "commandName": "MsixPackage"
+	},
+	"HomeIdeasUIApp.Windows (Unpackaged)": {
+	  "commandName": "Project"
+	}
+  }
+}

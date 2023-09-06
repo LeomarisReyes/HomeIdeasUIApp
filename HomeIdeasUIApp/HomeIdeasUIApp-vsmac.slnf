@@ -1,0 +1,15 @@
+{
+  "solution": {
+    "path": "HomeIdeasUIApp.sln",
+    "projects": [
+      "HomeIdeasUIApp.Tests\\HomeIdeasUIApp.Tests.csproj",
+      "HomeIdeasUIApp.UITests\\HomeIdeasUIApp.UITests.csproj",
+      "HomeIdeasUIApp.Mobile\\HomeIdeasUIApp.Mobile.csproj",
+      "HomeIdeasUIApp.Skia.Gtk\\HomeIdeasUIApp.Skia.Gtk.csproj",
+      "HomeIdeasUIApp.Wasm\\HomeIdeasUIApp.Wasm.csproj",
+      "HomeIdeasUIApp.Server\\HomeIdeasUIApp.Server.csproj",
+      "HomeIdeasUIApp.DataContracts\\HomeIdeasUIApp.DataContracts.csproj",
+      "HomeIdeasUIApp\\HomeIdeasUIApp.csproj"
+    ]
+  }
+}

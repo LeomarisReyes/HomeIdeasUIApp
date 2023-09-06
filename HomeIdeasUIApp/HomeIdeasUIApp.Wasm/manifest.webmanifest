@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "HomeIdeasUIApp",
+  "display": "standalone",
+  "name": "HomeIdeasUIApp",
+  "short_name": "HomeIdeasUIApp",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
