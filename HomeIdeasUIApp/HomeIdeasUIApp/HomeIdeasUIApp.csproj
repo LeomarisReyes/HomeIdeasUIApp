@@ -17,6 +17,7 @@
 		<PackageReference Include="Uno.Extensions.Logging.WinUI" />
 		<PackageReference Include="Uno.Extensions.Logging.Serilog" />
 		<PackageReference Include="Uno.Extensions.Serialization.Http" />
+		<PackageReference Include="Uno.Extensions.Http.WinUI" />
 		<PackageReference Include="Uno.Extensions.Serialization.Refit" />
 		<PackageReference Include="Uno.Material.WinUI" />
 		<PackageReference Include="Uno.Toolkit.WinUI.Material" />
@@ -52,6 +53,8 @@
 		</When>
 		<Otherwise>
 			<ItemGroup>
+				<PackageReference Include="Uno.WinUI.Lottie" />
+
 				<Content Include="Assets\**" />
 				<Page Include="**\*.xaml" Exclude="bin\**\*.xaml;obj\**\*.xaml" />
 				<Compile Update="**\*.xaml.cs">
