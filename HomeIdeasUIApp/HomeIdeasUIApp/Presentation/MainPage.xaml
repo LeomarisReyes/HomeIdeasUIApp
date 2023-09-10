@@ -36,7 +36,7 @@
                 <DataTemplate x:DataType="local:Ideas">
                     <StackPanel Margin="0,5">
                         <!-- No funciona-->
-                         <ProgressRing Grid.Row="0" Grid.Column="0" Foreground="Red" Height="50" Width="50" />
+                         <ProgressRing Foreground="Orange" Height="50" Width="50" />
  
                         <!--Main Information-->
                         <!--<Border Background="#282929" BorderThickness="0.8" Height="65" CornerRadius="8,8,0,0" HorizontalAlignment="Stretch" Margin="0,5,0,0">
