@@ -71,9 +71,14 @@
 
 	<ItemGroup>
 		<UnoDspImportColors Include="Styles\*.zip" Generator="Xaml" />
-		<UnoImage Include="Assets\**\*.svg" />
 		<EmbeddedResource Include="appsettings.json" />
 		<EmbeddedResource Include="appsettings.*.json" DependentUpon="appsettings.json" />
 		<UpToDateCheckInput Include="**\*.xaml" Exclude="bin\**\*.xaml;obj\**\*.xaml" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="Assets\Icons\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Assets\Icons\" />
 	</ItemGroup>
 </Project>
